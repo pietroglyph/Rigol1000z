@@ -26,9 +26,9 @@ pipenv install
 ## Example
 ```python
 import pyvisa as visa
-from Rigol1000z import Rigol1000z
+from rigol1000z import Rigol1000z
 from time import sleep
-from Rigol1000z.constants import *
+from rigol1000z.constants import *
 
 # Initialize the visa resource manager
 rm = visa.ResourceManager()
